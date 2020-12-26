@@ -1,0 +1,113 @@
+@media screen and (max-width: 1280px) {
+   .main-page,
+   .search,
+   .galery,
+   .block
+   {
+      visibility: hidden; 
+   }
+
+   .wrapper{
+      max-width: 320px;
+      margin: 0 auto;   
+   }
+
+   .top-line {
+      padding: 30px 10px 10px 10px;
+      background: #A0A0A0FF;
+   }
+   .top-line__burger {
+      display: block;
+      background: url(../img/burger.Back.svg);
+   }
+   .top-line__list {
+      display: none;
+   }
+   .top-line__item {
+   }
+   .top-line__link {
+      display: none;
+   }
+   .logo__link {
+      display: none;
+   }
+   .logo__img {
+   }
+   .adres {
+      display: none;
+   }
+   .fas {
+   }
+   .fa-map-marker-alt {
+   }
+   .icons {
+   }
+   .icons__item {
+   }
+   .far {
+   }
+   .fa-heart {
+   }
+   .fa-user {
+   }
+   .fa-shopping-cart {
+   }
+   .nav {
+   }
+   .nav-list {
+   }
+   .nav-item {
+   }
+   .nav-link {
+   }
+   .nav-item{
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 24px;
+      letter-spacing: 0em;
+
+   }
+
+   .nav-item:nth-child(n+4){
+      display: none;
+   }
+
+
+
+#footer{
+
+}
+.wrapper {
+}
+.footer__inner {
+}
+.footer__email {
+}
+.email__title {
+}
+.email__search {
+}
+.footer__list {
+}
+.footer__item {
+}
+.footer__link {
+}
+.footer__social {
+}
+.footer__item-icons {
+}
+.footer__icons {
+}
+.fab {
+}
+.fa-instagram {
+}
+.fa-vk {
+}
+.fa-facebook {
+}
+.fa-youtube {
+}
+
+}
