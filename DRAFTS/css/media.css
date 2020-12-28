@@ -1,10 +1,11 @@
 @media screen and (max-width: 1280px) {
-   .main-page,
    .search,
    .galery,
-   .block
+   .block1,
+   footer#footer,
+   section.block1
    {
-      visibility: hidden; 
+      display: none;
    }
 
    .wrapper{
@@ -15,23 +16,25 @@
    .top-line {
       padding: 30px 10px 10px 10px;
       background: #A0A0A0FF;
+      position: relative;
    }
    .top-line__burger {
-      display: block;
       background: url(../img/burger.Back.svg);
    }
    .top-line__list {
-      display: none;
+      align-items: center;
+      position: absolute;
+      top: 70px;
    }
    .top-line__item {
    }
    .top-line__link {
-      display: none;
    }
    .logo__link {
-      display: none;
    }
+ 
    .logo__img {
+      display: none;
    }
    .adres {
       display: none;
@@ -53,10 +56,14 @@
    .fa-shopping-cart {
    }
    .nav {
+      height: 53px;
+      box-sizing: border-box;
    }
    .nav-list {
+
    }
    .nav-item {
+      display: none;
    }
    .nav-link {
    }
@@ -73,10 +80,66 @@
    }
 
 
+ {
+    display: none;
+}
+
+
+.top-line__burger{
+   display: block;
+   background: url(../img/header/burger.svg);
+}
+
+.main-page {
+}
+.page__wrapper {
+   flex-direction: column-reverse;
+}
+.page__slide-list {
+   display: none;
+   max-width: 320px; 
+}
+.page__slide-list-wraper {
+}
+.page__slide-item {
+   padding: 0;
+}
+.page__slide-text {
+   display: none;
+}
+.page__slide-bullet {
+}
+.deal-card {
+   max-width: 320px;
+}
+.deal-card__cost {
+}
+.fas {
+}
+.fa-ruble-sign {
+}
+.ruble-grey {
+}
+.block {
+}
+.number {
+}
+.deal-card__img {
+}
+.deal-card__title {
+}
+.deal-card__text {
+}
+.deal-card__date {
+}
+
+
+
+
 
 #footer{
-
-}
+   display: none;
+}  
 .wrapper {
 }
 .footer__inner {
@@ -110,4 +173,11 @@
 .fa-youtube {
 }
 
+}
+
+
+@media screen and (min-width: 1280px){
+      .top-line__burger{
+         display: none;
+      }
 }

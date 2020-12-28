@@ -3,14 +3,16 @@ autoplay: {
     delay: 1000,
   },
   	pagination: {
-    	el: '.swiper-pagination',
+    	el: '.page__slide-bullet',
     	clickable: true,
    		bulletElement: true,
    		slideToClickedSlide:true,
+      clickable: true,
    	},
    	slidesPerView: 1,
    	slidesPerGroup: 1,
    	speed: 1000,	
+
 })
 
 var mySwiper = new Swiper('.galery__section', {
