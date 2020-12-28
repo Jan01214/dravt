@@ -1,0 +1,134 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+.top-line__link,
+.adres,
+.nav-link,
+.nav-link-active,
+/*.nav-link:hover,*/
+.search__item,
+.active-search-item,
+.search__item
+{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #2F3035;
+}
+
+.page__slide-text {
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.block {
+	font-family: Proxima Nova;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 0.1em;
+	background: #1C62CD;
+	color: #fff;
+}
+.number {
+	font-family: Barlow;
+	font-size: 27px;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: 0em;
+}
+
+.deal-card__title,
+.deal-card__tex,
+.deal-card__date,
+.galery__text  {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+}
+
+.search__link,
+.search__line input[type="button"]{
+	font-size: 14px;
+	line-height: 17px;
+
+	color: #C4C4C4;
+}
+
+.search__title {
+	font-family: Barlow;
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0em;
+}
+
+.search__item{
+	font-weight: normal;
+	color: #2F3035;
+}
+
+.search__line input[type="button"]{
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 0.12em;
+	color: #FFFFFF;
+
+	background: #1C62CD;
+}
+
+.search__line input[type="text"]{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+
+}
+
+.search__item {
+	color: #2F3035;
+}
+.active-search-item,
+.search__item:hover {
+	font-weight: bold;
+
+	color: #2F3035;
+	background: #F0F0F4;
+}
+
+
+
+.galery__main-title {
+font-family: Barlow;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+
+}
+
+.galery__title{
+font-family: Barlow;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+margin: 25px 0 31px;
+text-align: center;
+}
+.galery__btn {
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+
+color: #2F3035;
+}
+
+
